@@ -1284,7 +1284,7 @@ def create_fleet_dashboard():
             })
             st.dataframe(emissions_data, use_container_width=True)
             st.caption("CO2 Emissions by Vehicle")
-else:
+    else:
         st.info("💡 **No vehicles in fleet yet.** Click 'Add Vehicle' to get started!")
 
 # Create tabs for different features
